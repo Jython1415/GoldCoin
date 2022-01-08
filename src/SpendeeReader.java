@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
 public class SpendeeReader {
 
     /**
-     * 
+     * Method to count the number of rows in a CSV document given the local path
      * @param csvFilePath
      */
     public static int numRows(String csvFilePath) throws FileNotFoundException, NoSuchElementException {
